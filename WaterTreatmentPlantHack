@@ -1,0 +1,12 @@
+# sir, top donovian minds have created following malware - please review before use:
+
+./ip_address_scanner.exe >> ip_address_scanner_output.txt
+
+For address in ip_addresss_scanner_output.txt
+    if address == Atropian_IP_Address_List.txt
+        then execute port_scanner.exe >> port_scanner_output.txt
+
+For port in port_scanner_output.txt
+  If port == exploit_list.txt
+        then print(The following exploits were found: "exploit_list.txt")
+
